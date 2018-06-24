@@ -1,0 +1,20 @@
+git config --global core.editor vim
+
+git config --global user.email "eric.w.macdonald@gmail.com"
+git config --global user.name "Eric MacDonald"
+# to verify
+git config --global user.name
+
+git init
+git add .
+git commit -m "First Commit with console working"
+git remote add origin http://github.com/eric-macdonald/sand-casting
+git push  http://github.com/eric-macdonald/sand-casting
+
+git config credential.helper store
+Username: <type your username>
+password
+
+git remote show origin
+
+pull before push to synchronize
